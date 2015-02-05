@@ -14,11 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // This logs "init was visited" 2x
+        // This logs "property init was called" 2x
         NSLog("create MyOtherViewController with init()")
         var aTest = MyOtherViewController()
 
-        // This logs "init was visited" 1x
+        // This logs "property init was called" 1x
         NSLog("create MyOtherViewController with init(nibName: bundle:)")
         var aTest2 = MyOtherViewController(nibName:nil, bundle: nil)
     }
