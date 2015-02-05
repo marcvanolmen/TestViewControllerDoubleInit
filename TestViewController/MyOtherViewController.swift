@@ -12,7 +12,7 @@ import UIKit
 class MyDebugPrint : NSObject {
     
     override init() {
-        NSLog("init was visited)")
+        NSLog("property init was called")
         super.init()
     }
 }
