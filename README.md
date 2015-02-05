@@ -1,2 +1,2 @@
 # TestViewControllerDoubleInit
-Show a debug in swift with UIViewController init() call
+Show a bug in swift with UIViewController init() call
